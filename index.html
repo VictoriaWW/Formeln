@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formeln</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1 class="one">Расчёт &#160</h1>
+        <h1 class="two">формул &#160</h1>
+        <h1 class="three">периметра, &#160</h1>
+        <h1 class="four">площади &#160</h1>
+        <h1 class="five">и объема фигур.</h1>
+    </div>
+
+<!-- 1 -->
+
+<div class="container">
+    <div id="block">
+        <h4>Рассчитать периметр квадрата</h4>
+        <p class="formel">Формула: P = a * 4</p>
+        <p class="par">Введите сторону 'a' квадрата (в см или м)</p>
+        <span>
+        <input id="seite" type="text" placeholder="Сторона квадрата..."></span>
+        <br>
+        <br>
+        <div class="unten">
+            <button id="btneins">Рассчитать</button>
+        <br>
+        <br>
+        <div class="answer">
+            <span id="eins" class="zahl"></span>
+            <span class="sm">см/м</span>
+        </div>
+
+        </div>
+        
+    </div>
+
+<!-- 2 -->
+
+<div id="block">
+    <h4>Рассчитать площадь квадрата</h4>
+    <p class="formel">Формула: S = a²</p>
+    <p class="par">Введите сторону 'a' квадрата (в см или м)</p>
+    <span>
+    <input id="seiteQa" type="text" placeholder="Сторона 'a' квадрата..."></span>
+    <br>
+    <br>
+    <div class="unten">
+        <button id="btnzwei">Рассчитать</button>
+    <br>
+    <br>
+    <div class="answer">
+        <span id="zwei"  class="zahl"></span>
+        <span class="sm">см²/м²</span>
+    </div>
+    </div>
+    
+</div>
+
+    <!-- 3 -->
+    
+    <div id="block">
+        <h4>Рассчитать периметр прямоугольника</h4>
+        <p class="formel">Формула: P = 2 * (a + b)</p>
+        <p class="par">Введите сторону 'a' прямоугольника (в см или м)</p>
+        <span>
+        <input id="seiteREa" type="text" placeholder="Сторона 'a' прямоугольника..."></span>
+        <p class="par">Введите сторону 'b' прямоугольника (в см или м)</p>
+        <span>
+        <input id="seiteREb" type="text" placeholder="Сторона 'b' прямоугольника..."></span>
+        <br>
+        <br>
+        <button id="btndrei">Рассчитать</button>
+        <br>
+        <br>
+        <div class="answer">
+            <span id="drei"  class="zahl"></span>
+            <span class="sm">см/м</span>
+        </div>
+    </div>
+   
+    <!-- 4 -->
+
+    <div id="block">
+        <h4>Рассчитать площадь прямоугольника</h4>
+        <p class="formel">Формула: S = a * b</p>
+        <p class="par">Введите сторону 'a' прямоугольника (в см или м)</p>
+        <span>
+        <input id="seiteREaZwei" type="text" placeholder="Сторона 'a' прямоугольника..."></span>
+        <p class="par">Введите сторону 'b' прямоугольника (в см или м)</p>
+        <span>
+        <input id="seiteREbZwei" type="text" placeholder="Сторона 'b' прямоугольника..."></span>
+        <br>
+        <br>
+        <button id="btnvier">Рассчитать</button>
+        <br>
+        <br>
+        <div class="answer">
+            <span id="vier"  class="zahl"></span>
+            <span class="sm">см²/м²</span>
+        </div>
+    </div>
+
+    <!-- 5 -->
+
+    <div id="block">
+        <h4>Рассчитать площадь треугольника</h4>
+        <p class="formel">Формула: S = 1/2 * (b * h) (где b - основание, а h - высота)</p>
+        <p class="par">Введите основание 'b' треугольника (в см или м)</p>
+        <span>
+        <input id="seiteDreieck" type="text" placeholder="Основание 'b' треугольника..."></span>
+        <p class="par">Введите высоту 'h' треугольника (в см или м)</p>
+        <span>
+        <input id="hoeheDreieck" type="text" placeholder="Высота 'h' треугольника..."></span>
+        <br>
+        <br>
+        <button id="btnfuenf">Рассчитать</button>
+        <br>
+        <br>
+        <div class="answer">
+            <span id="fuenf"  class="zahl"></span>
+            <span class="sm">см²/м²</span>
+        </div>
+    </div>
+
+    <!-- 6 -->
+
+    <div id="block">
+        <h4>Рассчитать объём шара</h4>
+        <p class="formel">Формула: V = 4πr³/3</p>
+        <p class="par">Введите радиус 'r' шара (в см или м)</p>
+        <span>
+        <input id="radius" type="text" placeholder="Радиус 'r' шара..."></span>
+        <br>
+        <br>
+        <div class="unten">
+            <button id="btnsechs">Рассчитать</button>
+        <br>
+        <br>
+        <div class="answer">
+            <span id="sechs" class="zahl"></span>
+            <span class="sm">см³/м³</span>
+        </div>
+        </div>
+        
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
